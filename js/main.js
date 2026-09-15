@@ -18,7 +18,8 @@
   }
 
   function renderProjects(filter = "all") {
-    const projects = data.projects.map((project, index) => ({ project, index })).filter(({ project }) => filter === "all" || project.category === filter);
+    const normalizedFilter = String(filter).trim().toLowerCase();
+    const projects = data.projects.map((project, index) => ({ project, index })).filter(({ project }) => normalizedFilter === "all" || String(project.category).trim().toLowerCase() === normalizedFilter);
     list.innerHTML = projects.map(({ project, index }, visibleIndex) => `
       <article class="project project--${escapeHtml(project.category)} ${project.layout ? `project--${escapeHtml(project.layout)}` : ""} ${visibleIndex % 2 ? "project--reverse" : ""}" data-category="${escapeHtml(project.category)}">
         <div class="project-visuals">${visualMarkup(project, index)}</div>

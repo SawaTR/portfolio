@@ -27,7 +27,7 @@ const portfolioData = {
       purpose: "サービスの認知獲得と、特徴・導入実績の短時間での理解促進",
       concept: "多様な人が活躍できるデジタル社会というメッセージを軸に、写真、コピー、導入メリット、実績を一枚の中で段階的に伝える構成。",
       role: ["Design"],
-      tools: ["後から入力"], year: "後から入力",
+      tools: ["Adobe Illustrator"], year: "2025",
       images: ["images/projects/promotional/exhibition-digital-solutions-poster.png"],
       placeholderLabel: "EXHIBITION POSTER", placeholderCount: 1, url: ""
     },
@@ -41,7 +41,7 @@ const portfolioData = {
       purpose: "アプリの機能と利用対象を分かりやすく伝え、サービスへの関心と利用を促す",
       concept: "親しみやすい手描きモチーフと明快な情報設計により、アクセシビリティ機能を難しく感じさせずに紹介。",
       role: ["Design"],
-      tools: ["後から入力"], year: "後から入力",
+      tools: ["Adobe Illustrator"], year: "2025",
       images: ["images/projects/promotional/readify-app-flyer.png"],
       placeholderLabel: "APP FLYER", placeholderCount: 1, url: ""
     },
@@ -55,7 +55,7 @@ const portfolioData = {
       purpose: "オンライン相談会の認知拡大と、相談・問い合わせへの行動喚起",
       concept: "沖縄の開放感とウェディングの幸福感を生かしながら、親しみやすい手書き文字で相談の気軽さを表現。投稿全体で統一したトーンを設計。",
       role: ["Content Planning", "Copywriting", "Design"],
-      tools: ["後から入力"], year: "2026",
+      tools: ["Canva"], year: "2023",
       images: [
         "images/projects/sns/okinawa-wedding-01.jpg",
         "images/projects/sns/okinawa-wedding-02.jpg",
@@ -118,5 +118,5 @@ const portfolioData = {
     DIRECTION: ["Creative Direction", "Project Management", "Content Direction"]
   },
   tools: ["Canva", "Adobe Illustrator", "Adobe Photoshop", "Wix Studio", "Google Workspace"],
-  contact: { email: "your-email@example.com" }
+  contact: { email: "sawawa.0127.kinaco@gmail.com" }
 };
