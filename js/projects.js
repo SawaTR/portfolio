@@ -64,52 +64,6 @@ const portfolioData = {
         "images/projects/sns/okinawa-wedding-05.jpg"
       ],
       placeholderLabel: "SNS CREATIVE", placeholderCount: 5, url: ""
-    },
-    {
-      title: "Brand Identity Cards",
-      category: "print",
-      categoryLabel: "Print",
-      overview: "ブランドの第一印象を端的に伝える、名刺・コミュニケーションカードのデザイン。",
-      target: "取引先・プロジェクトパートナー",
-      purpose: "信頼感の醸成とブランド認知の統一",
-      concept: "情報の優先順位と余白を丁寧に設計し、手に取った瞬間にブランドの姿勢が伝わる印刷物へ。",
-      role: ["Planning", "Direction", "Design"],
-      tools: ["Adobe Illustrator"], year: "2026",
-      images: [], placeholderLabel: "PRINT PROJECT", placeholderCount: 3, url: ""
-    },
-    {
-      title: "In-store Promotion Series",
-      category: "promotional",
-      categoryLabel: "Promotional",
-      overview: "店頭での認知と購買行動を促す、POP・ポスターのビジュアル展開。",
-      target: "店舗来訪者・購入検討層",
-      purpose: "商品の理解促進と店頭での購買喚起",
-      concept: "短い接触時間でも価値が伝わるよう、コピーと視線誘導を一体で設計。",
-      role: ["Planning", "Copywriting", "Direction", "Design"],
-      tools: ["Canva", "Adobe Photoshop"], year: "2026",
-      images: [], placeholderLabel: "PROMOTIONAL PROJECT", placeholderCount: 2, url: ""
-    },
-    {
-      title: "Campaign Landing Page",
-      category: "lp", categoryLabel: "Landing Page",
-      overview: "サービスの価値を段階的に理解し、行動へつなげるキャンペーンLP。",
-      target: "サービスに関心を持つ新規見込み顧客",
-      purpose: "内容理解の促進と問い合わせ・参加登録の獲得",
-      concept: "ファーストビューからCTAまで、読み手の疑問に順番に応える情報構成。",
-      role: ["Planning", "Wireframing", "Copywriting", "Design"],
-      tools: ["Wix Studio", "Adobe Photoshop"], year: "2026",
-      images: [], placeholderLabel: "LANDING PAGE", placeholderCount: 3, url: ""
-    },
-    {
-      title: "Social Campaign Visuals",
-      category: "sns", categoryLabel: "SNS",
-      overview: "ブランドのトーンを保ちながら、複数フォーマットへ展開したSNSクリエイティブ。",
-      target: "スタートアップ・企業・イベント参加検討者",
-      purpose: "イベント認知の拡大と参加登録の促進",
-      concept: "フィード上での視認性と、連続して見たときのブランド一貫性を両立。",
-      role: ["Planning", "Copywriting", "Design"],
-      tools: ["Canva"], year: "2026",
-      images: [], placeholderLabel: "SNS CREATIVE", placeholderCount: 6, url: ""
     }
   ],
   skills: {
