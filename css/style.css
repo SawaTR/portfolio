@@ -14,3 +14,4 @@ dialog{border:0;padding:0;background:var(--paper);color:var(--ink);max-width:non
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
 .project--promotional .project-visuals>.visual:only-child{grid-column:1/-1;aspect-ratio:1200/630}
 .project--poster .project-visuals{display:block;max-width:680px;margin-inline:auto}.project--poster .project-visuals>.visual:only-child,.dialog-visuals.project--poster>.visual:only-child{aspect-ratio:1055/1491}.project--poster .visual img{object-fit:contain;background:#fff}
+.project--sns-portrait .visual,.dialog-visuals.project--sns-portrait .visual{aspect-ratio:4/5;background:#fff}.project--sns-portrait .visual img{object-fit:contain;background:#fff}
